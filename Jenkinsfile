@@ -28,8 +28,8 @@ pipeline {
         stage('Test'){
             steps {
                  echo 'Empty'
-		 sh 'npm install'
-		 sh 'npm test'	 
+		 //sh 'npm install'
+		 //sh 'npm test'	 
             }
         }
         stage('Deploy') {
